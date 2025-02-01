@@ -1,0 +1,30 @@
+:root{
+    --font-color-1: #FFFFFF;
+    --color-gradient-1: #376E40;
+    --color-gradient-2: #071917;
+    --home-1: url(../img/home.png);
+}
+@font-face{
+    font-family: "Montserrat-SemiBold.ttf";
+    src: url(../font/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: "Montserrat-Medium.ttf";
+    src: url(../font/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+@font-face{
+    font-family: "Montserrat-Regular.ttf";
+    src: url(../font/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Montserrat-Light.ttf";
+    src: url(../font/Montserrat/static/Montserrat-Light.ttf);
+}
+
+@font-face{
+    font-family: "Montserrat-Bold.ttf";
+    src: url(../font/Montserrat/static/Montserrat-Bold.ttf);
+}

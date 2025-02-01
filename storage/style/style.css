@@ -1,0 +1,103 @@
+@import url('variables.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*============== HEADER =======================*/
+
+.header {
+    height: 64px;
+    background: #c9ece8;
+    padding: 5px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding-right: 120px;
+    padding-left: 20px;
+}
+.profile {
+    background: #9cd3cd;
+}
+.menu-nav {
+    background: #60aca3;
+    padding: 5px;
+    display: flex;
+    gap: 100px;
+    color: var(--font-color-1);
+}
+.menu-nav li{
+    background: #378d83;
+    padding: 5px;
+    list-style: none;
+    font-family: "Montserrat-SemiBold.ttf";
+    color: var(--font-color-1);
+    text-decoration: none;
+}
+
+/*============================================*/
+
+/*============== MAIN ========================*/
+
+.HOME {
+    background-image: linear-gradient(var(--color-gradient-1), var(--color-gradient-2) 100%), var(--banner-1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 135svh;
+    /* padding: 20px; */
+}
+.main {
+    background: #1c7268;
+    padding: 15px;
+    background-image: linear-gradient(var(--color-gradient-1), var(--color-gradient-2) 100%), var(--banner-1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 135svh;
+}
+.article {
+    background: #0d645a;
+    padding: 15px;
+    width: 626px;
+    height: 360px;
+    position: relative;
+    left: 21svw;
+    top: 36svh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--font-color-1);
+    
+}
+.article span{
+    background: #c1e0dd;
+    padding: 15px;
+    font-size: 28px;
+    font-family:"Montserrat-SemiBold.ttf";
+}
+.article h1{
+    background: #448b84;
+    padding: 15px;
+    font-size:75px;
+    font-family: "Montserrat-SemiBold.ttf";
+
+}
+.article p{
+    background: #03332e;
+    padding: 15px;
+    width: 340px;
+    font-family:"Montserrat-Medium,ttf";
+}
+/*============================================*/
+
+/*============== FOOTER ======================*/
+
+/*============================================*/
+
+/*============== HEADER ======================*/
+
+/*============================================*/
