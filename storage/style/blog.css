@@ -1,0 +1,365 @@
+@import url('variables.css');
+/*
+*{margin: 0; padding: 0; 
+    outline: 1px solid tomato; 
+}
+*/
+body{
+    background-color: var(--color-gradient-2);
+    height: auto;
+}
+
+/*========================== NAVIGATING MENU ==============================*/
+.header {
+    height: 64px;
+    padding: 5px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding-right: 120px;
+    padding-left: 20px;
+}
+.div-icons{
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4%;
+}
+/*
+.profile {
+    background: #9cd3cd;
+}
+*/
+.menu-nav {
+    /*background: #60aca3;*/
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    width: 35%;
+    left: 50%;
+    right: 5%;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--font-color-1);
+}
+.menu-nav li{
+    /*background: #378d83;*/
+    padding: 5px;
+    list-style: none;
+    font-family: "Montserrat-SemiBold.ttf";
+    color: var(--font-color-1);
+    text-decoration: none;
+}
+.menu-nav li a{
+    /*background: #378d83;*/
+    padding: 5px;
+    color: var(--font-color-1);
+    text-decoration: none;
+}
+
+
+.line{
+    position: absolute;
+    left: 4.09vw;
+    width: 91.80vw;
+    top: 7vw;
+    height: 2px;
+    background-color: var(--font-color-1);
+}
+.navsubmenu button{
+    position: absolute;
+    left: 6.527vw;
+    top: 7.84vw;
+    width: 7.84vw ;
+    height: 1.94vw;
+    background-color: rgba(20, 94, 42, 1) ;
+    border-radius: 0.347vw;
+    border: none;
+    color: var(--font-color-1);
+    font-size: 1.041vw;
+    font-family: "Montserrat-Medium.ttf";
+    cursor: pointer;
+}
+.navsubmenu button:hover{
+    background-color: var(--color-gradient-1);
+}
+.navsubmenu div{
+    font-family: "Montserrat-Light.ttf";
+    font-size: 1.041vw ;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 51.45vw;
+    height:auto;
+    left: 23.81vw;
+    top: 8.05vw ;
+    justify-content: space-between;
+    color:var(--font-color-1);
+}
+
+
+/*========================== MAIN VIEW ==============================*/
+.main-img{
+    position: absolute;
+    width: 1027px;
+    height: 606px;
+    left: 26px;
+    top: 208px;
+}
+.maintext{ 
+    position: absolute;
+    left: 733px;
+    top: 281px;
+    width: 672px;
+    height: 460px;
+    background-color: rgba(20, 94, 42, 0.815);
+    color: white;
+    border-radius:30px ;
+    
+    
+    display: flex;
+    flex-direction: column;
+}
+.maintext h2{
+    width: 581px;
+    font-size: 72px;
+    font-family: "Montserrat-Light.ttf";
+    position: absolute;
+    left: 33px;
+    top: 37px;
+    font-weight: 50;
+}
+.maintext h1{
+    width: 581px;
+    font-size: 28px;
+    font-family: "Montserrat-SemiBold.ttf";
+    position: absolute;
+    left: 33px;
+    top: 158px;
+}
+.maintext p{
+    width: 581px;
+    font-family: "Montserrat-Medium.ttf";
+    position: absolute;
+    left: 33px;
+    top: 241px;
+    font-size: 25px;
+}
+.maintext button{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    top: 380px;
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+    font-family: "Montserrat-Light.ttf";
+    font-size: 24px;
+    border-radius: 25px ;
+    cursor: pointer;
+    border: none;
+    padding:10px 15px 10px 15px;
+
+}
+.maintext button:hover{
+    background-color: rgb(172, 172, 172);
+    color: rgb(36, 36, 36);
+
+}
+
+
+/*========================== RECENT POSTS ==============================*/
+.subtitletext{
+    top: 872px ;
+    position: absolute;
+    color: white;
+    left: 51px ;
+    font-family: "Montserrat-Medium.ttf";
+    font-size: 28px;
+
+}
+.flexcontentA{
+    top: 965px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 27px ;
+    width: 100%;
+    justify-content: center;
+}
+.flexcontentA section{
+    display: flex;
+    flex-direction: column;
+    width: 447px; 
+    height: 593px;
+    background-color: rgba(20, 94, 42, 1);
+    border-radius: 30px;
+}
+.flexcontentA section img{
+    position: absolute;
+    top: 21px;
+    width: 414px;
+    height: 284px;
+    display: flex;
+    align-self: center;
+}
+.flexcontentA section h2{
+    font-family: "Montserrat-SemiBold.ttf";
+    font-size: 28px;
+    position: absolute;
+    top: 338px;
+    display: flex;
+    align-self: center;
+    color: white;
+}
+.flexcontentA section p{
+    position: absolute;
+    top: 412px;
+    font-family: "Montserrat-Regular.ttf";
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    width: 410px;
+    height: auto;
+}
+.flexcontentA section button{
+    font-family: "Montserrat-Regular.ttf";
+    font-size: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    border: none;
+    position: absolute;
+    display: flex;
+    align-self: center;
+    top: 509px ;
+    width: 145px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+    cursor: pointer;
+}
+.flexcontentA section button:hover{
+    background-color: rgb(185, 185, 185);
+    color: rgb(39, 39, 39);
+}
+
+
+.flexcontentB{
+    top: 1583px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap:27px ;
+    width: 100%;
+    justify-content: center;
+}
+.flexcontentB section{
+    display: flex;
+    flex-direction: column;
+    width: 447px; 
+    height: 593px;
+    background-color: rgba(20, 94, 42, 1);
+    border-radius: 30px;
+} 
+.flexcontentB section img{
+    position: absolute;
+    top: 21px;
+    width: 414px;
+    height: 284px;
+    display: flex;
+    align-self: center;
+}
+.flexcontentB section h2{
+    font-family: "Montserrat-SemiBold.ttf";
+    font-size: 28px;
+    position: absolute;
+    top: 338px;
+    display: flex;
+    align-self: center;
+    color: white;
+}
+.flexcontentB section p{
+    position: absolute;
+    top: 412px;
+    font-family: "Montserrat-Regular.ttf";
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    width: 410px;
+    height: auto;
+}
+.flexcontentB section button{
+    font-family: "Montserrat-Regular.ttf";
+    font-size: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    border: none;
+    position: absolute;
+    display: flex;
+    align-self: center;
+    top: 509px ;
+    width: 145px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+    cursor: pointer;
+}
+.flexcontentB section button:hover{
+    background-color: rgb(185, 185, 185);
+    color: rgb(39, 39, 39);
+}
+
+
+.footercontent{
+    
+    display: flex;
+    flex-direction: column;
+} 
+.footercontent h2{
+    font-size: 28px; 
+    top: 2264px;
+    position: absolute;
+    font-family: "Montserrat-Bold.ttf";
+    color: white;
+    align-self: center;
+    display: flex;
+}
+.footercontent p{
+    position: absolute;
+    top: 2321px;
+    align-self: center;
+    display: flex;
+    color: white;
+    font-family: "Montserrat-Regular.ttf";
+    width: 866px;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+}
+.footercontent img{
+    position: absolute;
+    top: 2449px;
+    color: white;
+    align-self: center;
+    display: flex;
+    width: 304px;
+    height: auto;
+}
+
+
+.copyright{
+    font-family: "Montserrat-Regular.ttf";
+    position: absolute;
+    top: 2522px;
+    left: 6px;
+    font-size:  20px;
+    color: white;
+    padding-bottom: 10px;
+}
